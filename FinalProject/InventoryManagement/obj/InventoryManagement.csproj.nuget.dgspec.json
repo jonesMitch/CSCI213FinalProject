@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mitch Jones\\Desktop\\Coding\\SchoolWork\\ModernAssignments\\FinalProject\\InventoryManagement\\InventoryManagement.csproj": {}
+    "C:\\Users\\Mitch Jones\\Desktop\\Coding\\ModernFinalProject\\FinalProject\\InventoryManagement\\InventoryManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mitch Jones\\Desktop\\Coding\\SchoolWork\\ModernAssignments\\FinalProject\\InventoryManagement\\InventoryManagement.csproj": {
+    "C:\\Users\\Mitch Jones\\Desktop\\Coding\\ModernFinalProject\\FinalProject\\InventoryManagement\\InventoryManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mitch Jones\\Desktop\\Coding\\SchoolWork\\ModernAssignments\\FinalProject\\InventoryManagement\\InventoryManagement.csproj",
+        "projectUniqueName": "C:\\Users\\Mitch Jones\\Desktop\\Coding\\ModernFinalProject\\FinalProject\\InventoryManagement\\InventoryManagement.csproj",
         "projectName": "InventoryManagement",
-        "projectPath": "C:\\Users\\Mitch Jones\\Desktop\\Coding\\SchoolWork\\ModernAssignments\\FinalProject\\InventoryManagement\\InventoryManagement.csproj",
+        "projectPath": "C:\\Users\\Mitch Jones\\Desktop\\Coding\\ModernFinalProject\\FinalProject\\InventoryManagement\\InventoryManagement.csproj",
         "packagesPath": "C:\\Users\\Mitch Jones\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mitch Jones\\Desktop\\Coding\\SchoolWork\\ModernAssignments\\FinalProject\\InventoryManagement\\obj\\",
+        "outputPath": "C:\\Users\\Mitch Jones\\Desktop\\Coding\\ModernFinalProject\\FinalProject\\InventoryManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

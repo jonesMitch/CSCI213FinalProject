@@ -28,9 +28,14 @@ namespace InventoryManagement.Controllers
                             select c;
             if (clear) { }
             if (searchSerialNumber != null)
-                computers = computers.Where(c => c.manufacturerSerialNumber == int.Parse(searchSerialNumber));
+            {
+                int serialNumber;
+                if (int.TryParse(searchSerialNumber, out serialNumber))
+                    computers = computers.Where(c => c.manufacturerSerialNumber == serialNumber);
+            }
             if (roomNumber != null)
                 computers = computers.Where(c => c.OfficeRoomNumber!.Contains(roomNumber));
+
             if (dateRangeStart != null && dateRangeEnd != null)
             {
                 computers = computers.Where(c => c.InstallationDate > dateRangeStart 
@@ -38,12 +43,14 @@ namespace InventoryManagement.Controllers
             }
             if (priceRangeStart != null && priceRangeEnd != null)
             {
-                computers = computers.Where(c => c.Price > decimal.Parse(priceRangeStart)
-                            && c.Price < decimal.Parse(priceRangeEnd));
+                decimal priceStart, priceEnd;
+                if (decimal.TryParse(priceRangeStart, out priceStart) && decimal.TryParse(priceRangeEnd, out priceEnd))
+                {
+                    computers = computers.Where(c => c.Price > priceStart && c.Price < priceEnd);
+                }
             }
 
             return View(await computers.ToListAsync());
-              //return View(await _context.Computer.ToListAsync());
         }
 
         // GET: Computers/Details/5

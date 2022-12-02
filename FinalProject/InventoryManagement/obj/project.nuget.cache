@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sp1ms+POQo56hBLzW+1QwgOpzgaxWFDJ+rsha8VpRPi3c6DgWNjM+SEPyjd3iXjqjkRNuV86Z3cMGdanEr04tw==",
+  "dgSpecHash": "A17hnsYrzl0wG9zdN1L+SbN1XpeFYs5lTeD4MSE9nXp5r+MbOJ4hiiV9A8q+O4WUT4svJwy4LCbEJSfBfHOf9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mitch Jones\\Desktop\\Coding\\SchoolWork\\ModernAssignments\\FinalProject\\InventoryManagement\\InventoryManagement.csproj",
+  "projectFilePath": "C:\\Users\\Mitch Jones\\Desktop\\Coding\\ModernFinalProject\\FinalProject\\InventoryManagement\\InventoryManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mitch Jones\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Mitch Jones\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
